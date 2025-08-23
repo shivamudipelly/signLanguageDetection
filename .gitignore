@@ -1,0 +1,60 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+py310_venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# --------------------
+# Project-specific
+# --------------------
+# Ignore all user-created data
+# data/
+
+# Pickle and serialized data files
+*.pickle
+*.pkl
+*.npy
+*.npz
+*.csv
+*.tsv
+
+# Model files (trained models, checkpoints, etc.)
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.p
+
+# Logs & outputs
+*.log
+logs/
+outputs/
+runs/
+checkpoints/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------
+# Build/Packaging
+# --------------------
+*.egg-info/
+dist/
+build/
